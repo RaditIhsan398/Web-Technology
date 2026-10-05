@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Nama: Muhammad Raditya Ihsan<br>NIM: E030425062</p>
+    <hr>
+    <h1>Kuis Pratikum: Form Pemesanan Service</h1>
+    <table>
+        <tr>
+            <td><label for="nama_pelanggan">Nama Pelanggan:</label></td>
+            <td><input type="text" name="nama_pelanggan" id="nama_pelanggan" placeholder="Masukkan Nama" size="40"
+                    required></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="pilih_kategori">Kategori Layanan:</label>
+            </td>
+            <td>
+                <select name="pilih_kategori" id="pilih_kategori" required>
+                    <option value="">Web Development</option>
+                    <option value="Basic">Basic (Rp. 1.500.000)</option>
+                    <option value="Standard">Premium (Rp. 3.000.000)</option>
+                    <option value="Premium">Graphic Design (Rp. 500.000)</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Metode Pembayaran:</label></td>
+            <td><input type="radio" id="transfer" name="metode_pembayaran" value="Transfer Bank" checked>
+                <label for="transfer">Transfer Bank</label>
+                <input type="radio" id="e_wallet" name="metode_pembayaran" value="E-Wallet">
+                <label for="e_wallet">E-Wallet</label>
+            </td><br>
+        </tr>
+        <tr>
+            <td><button type="submit"><b>Kirim Form</b></button></td>
+        </tr>
+    </table>
+</body>
+
+</html>
