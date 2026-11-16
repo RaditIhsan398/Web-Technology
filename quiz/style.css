@@ -1,7 +1,7 @@
 :root {
     --primary-color: #008080;
     --primary-dark: #005A5A;
-    --accent-color: #FF0800;
+    --accent-color: #FF9800;
     --secondary-color: #1A252C;
     --bg-light: #CCFFCC;
     --white: #FFFFFF;
@@ -9,7 +9,7 @@
     --text-muted: #666666;
     --border-color: #E0E0E0;
     --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.08);
-    --shadow-haver: 0 8px 24px rgba(0, 0, 0, 0.15);
+    --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.15);
     --transition-fast: all 0.3s ease;
 }
 
